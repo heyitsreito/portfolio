@@ -1,0 +1,34 @@
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the profile section horizontally */
+  padding: 60px;
+  min-height: 60vh; /* Ensures the section takes up vertical space */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center; /* Center the text in the bio */
+}
+
+.bio h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px 0;
+  text-align: center; /* Center the text in the bio */
+}
+
+.bio p {
+  max-width: 500px;
+  color: #555;
+  line-height: 1.6;
+  text-align: center; /* Center the text in the bio */
+}
