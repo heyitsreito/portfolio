@@ -1,16 +1,21 @@
 import React from 'react';
 import Header from './components/Header';
-import ProfileSection from './components/ProfileSection';
-import SectionLinks from './components/SectionLinks';
+import Hero from './components/Hero';
+import Universities from './components/Universities';
+import Services from './components/Services';
+import Blogs from './components/Blogs';
+import Plans from './components/Plans';
 import Footer from './components/Footer';
-import './App.css';
 
 function App() {
   return (
-    <div className="app-container">
+    <div>
       <Header />
-      <ProfileSection />
-      <SectionLinks />
+      <Hero />
+      <Universities />
+      <Services />
+      <Blogs />
+      <Plans />
       <Footer />
     </div>
   );
