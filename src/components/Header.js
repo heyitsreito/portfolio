@@ -1,25 +1,20 @@
 import React from 'react';
-import './Header.css';
 
-const Header = () => {
+function Header() {
   return (
-    <header className="header">
-      <div className="left-section">
-        <div className="circle"></div>
-        <h1>Reito Kano</h1>
-        <p className="title">Graduate & ACCA Member @ Monash University</p>
-      </div>
-      <nav className="header-nav">
-        <a href="#resume">Resume</a>
-        <span className="divider">|</span>
-        <a href="#research">Research</a>
-        <span className="divider">|</span>
-        <a href="#skills">Skills</a>
-        <span className="divider">|</span>
-        <a href="#personal">Personal</a>
+    <header>
+      <nav>
+        <h1>BANGGA MALAYSIA</h1>
+        <ul>
+          <li><a href="#universities">Universities</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#plans">Plans</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
     </header>
   );
-};
+}
 
 export default Header;

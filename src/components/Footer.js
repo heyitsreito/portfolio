@@ -1,12 +1,11 @@
 import React from 'react';
-import './Footer.css';
 
-const Footer = () => {
+function Footer() {
   return (
-    <footer className="footer">
-      <p>&copy; 2023 By Your Name</p>
+    <footer>
+      <p>&copy; 2023 Bangga Malaysia. All rights reserved.</p>
     </footer>
   );
-};
+}
 
 export default Footer;
